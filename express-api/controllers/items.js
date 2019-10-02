@@ -1,5 +1,3 @@
-
-//Transformar isso em um Middleware
 const redis = require('redis');
 
 let client;
