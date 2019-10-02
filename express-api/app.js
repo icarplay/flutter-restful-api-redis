@@ -5,7 +5,7 @@ var http = require('http')
 
 const itemsRouter = require('./routes/items');
 
-app.use('/test', itemsRouter);
+app.use('/list', itemsRouter);
 
 http.createServer(app).listen(3000, () => {
     console.log('Rodando Http Server');
