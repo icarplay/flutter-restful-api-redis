@@ -9,5 +9,6 @@ router.post('/create-card-date', itemsController.createCardDate);
 router.post('/delete-card', itemsController.deleteCard);
 
 router.get('/list-cards', itemsController.getCards);
+router.post('/get-card', itemsController.getCard);
 
 module.exports = router;
